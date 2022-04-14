@@ -1,0 +1,118 @@
+.page-block {
+    width: 100%;
+    min-height: 60vh;
+    background-color: var(--accent2-color);
+    position: relative;
+    padding: 20px 0;
+    padding-bottom: 150px;
+}
+
+.page-block.first {
+    margin-top: 140px;
+}
+
+.page-block.white {
+    background-color: var(--accent1-color);
+    color: var(--accent2-color);
+}
+
+.page-block.white .page-block-top {
+    background-color: var(--accent1-color);
+}
+
+.page-block-top {
+    clip-path: polygon(0 0, 100% 70%, 100% 100%, 0% 100%);
+    background-color: var(--accent2-color);
+    height: 90px;
+    position: absolute;
+    top: -88px;
+    width: 100%;
+}
+
+.page-block-text {
+    width: 95%;
+    min-height: 40vh;
+    padding-left: 60px;
+}
+.page-block-additionalText {
+    width: 90%;
+    margin: 50px 0;
+    padding: 20px 10px;
+    font-size: 19px;
+}
+
+.page-block-text h4 {
+    font-size: 25px;
+    width: 80%;
+    padding: 5px;
+}
+
+.page-block-text-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.page-block.second .page-block-text-flex {
+    flex-direction: row-reverse;
+}
+
+.page-block-text-flex-text {
+    width: 60%;
+    font-size: 19px;
+}
+
+.page-block-text-flex-img {
+    width: 40%;
+}
+
+.page-block-text-flex-img img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    transition: cubic-bezier(0.6, -0.28, 0.735, 0.045) 0.5s;
+    cursor: pointer;
+}
+
+.page-block-text-flex-img img:hover {
+    transform: scale(1.2);
+}
+
+.page-block-text-flex ul {
+    list-style-type: disc;
+}
+
+.page-block-text-flex ul li {
+    margin-left: 25px;
+    padding-bottom: 10px;
+}
+
+.page-down-btn {
+    display: block;
+    padding: 30px 0;
+}
+
+.page-down-btn img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50px;
+    height: 30px;
+    animation: btnarr 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes btnarr {
+    0% {
+        transform: translateY(0) rotate(180deg);
+    }
+    40% {
+        transform: translateY(20px) rotate(180deg);
+    }
+    100% {
+        transform: translateY(0) rotate(180deg);
+    }
+}

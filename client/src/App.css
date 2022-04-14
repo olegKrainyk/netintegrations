@@ -1,0 +1,16 @@
+.content {
+    padding-top: 70px;
+}
+
+.img-bg {
+    background: url('./img/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: fixed;
+    top: 0;
+    bottom: -10%;
+    right: 0;
+    left: 0;
+    z-index: -1;
+}

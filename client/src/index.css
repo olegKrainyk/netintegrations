@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Quantico:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  /* font-family: 'Lato', sans-serif; */
+  font-family: 'Quantico', sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  color: var(--accent1-color);
+  background-color: var(--accent2-color);
+}
+
+button {
+  background-color: none;
+  border: none;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: green;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}
+
+.content-center {
+  max-width: 2000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+::selection {
+  background: rgba(129, 195, 81, 0.5);
+}
+::-moz-selection {
+  background: rgba(129, 195, 81, 0.5);
+}
+
+:root {
+  --main-color: #81C351;
+  --accent1-color: #fff;
+  --accent2-color: #000;
+}
+
+.bold-text {
+  font-weight: 700;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.mrg-top {
+  margin-top: 25px;
+}
+.mrg-top-sm {
+  margin-top: 10px;
+}
+.underline {
+  text-decoration: underline;
+}
+.mrg-btm-bg {
+  margin-bottom: 170px;
+}

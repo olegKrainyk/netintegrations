@@ -1,0 +1,420 @@
+@media (min-width: 2200px) {
+    .logo img {
+        width: 500px;
+    }
+    .menuBtn {
+        top: 60px !important;
+        left: 60px !important;
+        width: 120px !important;
+        height: 120px !important;
+    }
+    .menuBtn div {
+        width: 62px !important;
+        height: 5px !important;
+        margin: 8.5px 0 !important;
+    }
+    .logo {
+        top: 30px;
+    }
+    .btn-up {
+        bottom: 40px;
+        right: 40px;
+        width: 60px;
+        height: 60px;
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .nav-bar-resp {
+        width: 650px !important;
+        padding-left: 75px !important;
+        padding-top: 200px !important;
+    }
+    .nav-link-small {
+        font-size: 30px !important;
+    }
+    .nav-link-big {
+        font-size: 38px !important;
+    }
+    .page-block {
+        min-height: 40vh;
+    }
+    .page-block-text {
+        min-height: 35vh;
+    }
+    .main-block {
+        min-height: 50vh;
+    }
+}
+
+@media (min-width: 3600px) {
+    .home-block {
+        height: 40vh;
+    }
+    .home {
+        top: 25%;
+    }
+    .page-block {
+        min-height: 25vh;
+    }
+    .page-block-text {
+        min-height: 20vh;
+    }
+    .main-block {
+        min-height: 40vh;
+    }
+}
+
+@media (min-width: 1500px) {
+    .main-titles h1 {
+        font-size: 60px;
+    }
+    .main-titles h2 {
+        font-size: 38px;
+    }
+    .main-btn {
+        font-size: 30px;
+    }
+    .page-block-text-flex-text {
+        font-size: 24px;
+    }
+    .page-block-text-flex-img img {
+        width: 180px;
+    }
+    .page-block-text h4 {
+        font-size: 30px;
+    }
+    .page-block-text {
+        min-height: 40vh;
+    }
+    .page-down-btn img {
+        width: 60px;
+        height: 35px;
+    }
+    .main-btn-wrapper img {
+        width: 60px;
+        left: 35%;
+        height: 40px;
+    }
+}
+
+
+@media (max-width: 1024px) {
+    .main-titles h1 {
+        font-size: 50px;
+        padding: 0;
+    }
+    .main-titles h2 {
+        font-size: 30px;
+        padding: 0;
+    }
+    .main-btn {
+        font-size: 22px;
+    }
+    .home {
+        top: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .main-btn-wrapper {
+        margin-top: 170px;
+    }
+}
+
+
+@media (max-width: 850px) {
+    .content {
+        padding-top: 75px;
+    }
+    .home {
+        top: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .home-block-2 {
+        clip-path: polygon(0 0, 100% 4%, 100% 100%, 0 100%);
+        padding-top: 70px;
+    }
+    .main-titles {
+        width: auto;
+        padding: 0;
+    }
+    .main-titles h1 {
+        font-size: 31px;
+        padding: 0;
+    }
+    .main-titles h2 {
+        font-size: 18px;
+        padding: 0;
+    }
+    .main-btn-wrapper {
+        margin-top: 170px;
+    }
+    .main-btn-wrapper img {
+        left: 35%;
+    }
+    .main-btn {
+        font-size: 18px;
+    }
+    .logo {
+        right: 0px;
+        top: 4px;
+    }
+    .logo img {
+        width: 170px;
+    }
+    .menuBtn {
+        top: 18px !important;
+        left: 18px !important;
+    }
+    .menuBtn div {
+        width: 22px !important;
+        height: 2px !important;
+        margin: 3px 0 !important;
+    }
+    .nav-link-small {
+        font-size: 13px !important;
+    }
+    .nav-link-big {
+        font-size: 16px !important;
+    }
+    /* H2 styles */
+    .h2s {
+        padding-left: 50px !important;
+        margin-bottom: 120px !important;
+        margin-top: 0 !important;
+    }
+    .h2s h2 {
+        font-size: 20px !important;
+        padding: 5px !important;
+    }
+    .h2s .h2-content {
+        padding: 10px !important;
+        margin-right: 20px !important;
+        font-size: 10px !important;
+    }
+    .h2s .h2-triangle {
+        font-size: 20px !important;
+    }
+    /* .. */
+    .btn-up {
+        bottom: 20px !important;
+        right: 20px !important;
+        font-size: 25px !important;
+        width: 30px !important;
+        height: 30px !important;
+        line-height: 28px !important;
+    }
+    /* Nav styles */
+    .nav-bar-resp {
+        width: 220px !important;
+        padding-left: 18px !important;
+        padding-top: 60px !important;
+    }
+    .nav-link-big:hover, .nav-link-small:hover {
+        padding-left: 0 !important;
+    }
+    .nav-link-small:hover {
+        color: var(--accent1-color);
+    }
+    /* home cards */
+    .home-cards {
+        width: 100%;
+        padding-top: 40px;
+        padding-bottom: 130px;
+    }
+    .home-card {
+        padding: 20px 10px;
+    }
+    .card-body-info {
+        display: block;
+        width: 90%;
+        padding: 5px 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card-body-info h3 {
+        font-size: 19px;
+    }
+    .home-card-text {
+        padding-top: 7px;
+        font-size: 12px;
+    }
+    .home-card-img {
+        display: block;
+        padding: 10px 0;
+    }
+    .home-card-img img {
+        width: 60px;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .home-card-img div {
+        display: none;
+    }
+    .home-card:hover {
+        background-color: transparent;
+        transform: none !important;
+    }
+    /* page block styles */
+    .page-block.first {
+        margin-top: 100px;
+    }
+    .page-block-top {
+        height: 55px;
+        top: -53px;
+    }
+    .page-block {
+        width: 100%;
+        min-height: 60vh;
+        background-color: var(--accent2-color);
+        position: relative;
+        padding: 20px 0;
+        padding-bottom: 110px;
+    }
+    .page-block-text {
+        width: 95%;
+        padding-left: 0;
+        padding-bottom: 30px;
+    }
+    .page-block-additionalText {
+        margin: 20px 5px;
+        padding: 5px;
+        font-size: 14px;
+        width: 95%;
+    }
+    .page-block-text h4 {
+        font-size: 15px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .page-block-text-flex {
+        flex-direction: column-reverse !important;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    .page-block-text-flex-text {
+        width: 100%;
+        font-size: 13px;
+    }
+    .page-block-text-flex-img {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .page-block-text-flex-img img {
+        display: block;
+        width: 80px;
+    }
+    .page-block-text-flex ul li {
+        padding-bottom: 7px;
+    }
+    .page-down-btn {
+        padding: 10px 0;
+    }
+    .page-down-btn img {
+        width: 40px;
+        height: 25px;
+    }
+    /* footer styles */
+    .footer-top {
+        clip-path: polygon(0 52%, 100% 20%, 100% 100%, 0% 100%);
+    }
+    .footer-cols {
+        padding-bottom: 20px;
+        padding-left: 15px;
+    }
+    .footer-cols h5 {
+        font-size: 10px;
+    }
+    .footer-cols ul {
+        width: 33%;
+    }
+    .footer-cols ul li {
+        padding: 3px 0;
+        transition: 0.5s;
+        font-size: 9px;
+    }
+    .footer-cols a {
+        font-size: 9px;
+        transition: 0.3s;
+    }
+    .footer-cols ul li:hover {
+        transform: translateX(0);
+    }
+    .mrg-btm-bg {
+        margin-bottom: 140px;
+    }
+    /*form styles*/
+    .formBlock {
+        margin-left: 50px;
+    }
+    .submitBtn {
+        color: var(--main-color);
+        font-size: 18px;
+        padding: 5px 10px;
+    }
+    .formEl {
+        margin: 25px 5px;
+    }
+    .formBlock input[type=text], .formBlock input[type=email] {
+        width: 150px;
+        font-size: 16px;
+    }
+    .formBlock textarea {
+        width: 270px;
+        height: 100px;
+        font-size: 14px;
+    }
+
+    /* not found page */
+    .not-found-title {
+        font-size: 35px;
+    
+    }
+    .not-found-text {
+        font-size: 15px;
+        padding-top: 5px;
+    }
+
+    
+    .author a {
+        font-size: 6px;
+    }
+}
+
+@media (max-width: 360px) {
+    /*home cards styles*/
+    .card-body-info {
+        width: 95%;
+        padding: 5px 10px;
+    }
+    .card-body-info h3 {
+        font-size: 16px;
+    }
+    .home-card-text {
+        padding-top: 5px;
+        font-size: 10px;
+    }
+    /*page block styles*/
+    .page-block-additionalText {
+        font-size: 12px;
+    }
+    .page-block-text-flex-text {
+        font-size: 12px;
+    }
+    .h2-page {
+        font-size: 17px;
+    }
+    /*form styles*/
+    .formBlock input[type=text] {
+        font-size: 14px;
+    }
+    .formBlock textarea {
+        width: 220px;
+        font-size: 12px;
+    }
+}

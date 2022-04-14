@@ -1,0 +1,52 @@
+.home-cards {
+    width: 90%;
+    padding-top: 70px;
+    padding-bottom: 200px;
+}
+
+.home-card {
+    display: block;
+    padding: 30px 20px;
+    cursor: default;
+}
+
+.card-body-info {
+    display: inline-block;
+    width: 80%;
+    padding-right: 15%;
+}
+
+.card-body-info h3 {
+    font-size: 27px;
+    font-weight: 600;
+}
+
+.home-card-text {
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 17px;
+}
+
+.home-card-img {
+    display: inline-block;
+}
+
+.home-card-img img {
+    display: block;
+    width: 120px;
+}
+
+.home-card.r .home-card-img div {
+    display: block;
+    height: 30px;
+    width: 110px;
+}
+
+.home-card.l .home-card-img div {
+    display: none;
+}
+
+.home-card:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    transform: translateX(20px) !important;
+}

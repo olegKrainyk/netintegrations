@@ -1,0 +1,75 @@
+.formBlock {
+    width: 85%;
+    color: var(--accent1-color);
+    padding-bottom: 150px;
+}
+
+.formBlock h4 {
+    font-size: 20px;
+}
+
+.submitBtn-wrapper {
+    display: block;
+    margin-top: 30px;
+}
+
+.submitBtn {
+    display: inline-block;
+    background-color: var(--accent1-color);
+    border: none;
+    border-radius: 15px;
+    color: var(--main-color);
+    font-size: 24px;
+    padding: 5px 15px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    outline: transparent;
+}
+
+.submitBtn:hover {
+    color: var(--accent1-color);
+    background-color: var(--main-color);
+}
+.submitBtn:disabled {
+    background-color: #CACFD2;
+    color: #7B7D7D;
+}
+.submitBtn:disabled:hover {
+    background-color: #CACFD2;
+    color: #7B7D7D;
+}
+
+.formEl {
+    display: block;
+    margin: 40px 5px;
+
+}
+
+.formBlock input[type=text], .formBlock input[type=email] {
+    font-family: sans-serif;
+    color: var(--accent1-color);
+    border: none;
+    border-bottom: 2px solid var(--main-color);
+    background-color: transparent;
+    outline: transparent;
+    width: 300px;
+    font-size: 18px;
+}
+
+.formBlock textarea {
+    font-family: sans-serif;
+    outline: transparent;
+    color: var(--accent1-color);
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid var(--main-color);
+    resize: none;
+    width: 550px;
+    height: 130px;
+    font-size: 14px;
+}
+
+.email-status {
+    display: block;
+    max-width: 80vw;
+}
