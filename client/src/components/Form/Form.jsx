@@ -63,7 +63,7 @@ class Form extends Component {
             this.setState({ isSending: false })
         });
         // open the request with the verb and the url
-        xhr.open('GET', 'http://try.dontwasteyourdream.com/index.php?sendto=' + email +
+        xhr.open('GET', 'http://netint.olegkrainyk.com/index.php?sendto=' + email +
             '&name=' + name +
             '&message=' + message);
         // send the request
